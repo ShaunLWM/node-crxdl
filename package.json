@@ -1,0 +1,22 @@
+{
+  "name": "node-crxdl",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:ShaunLWM/node-crxdl.git",
+  "author": "ShaunLWM",
+  "license": "MIT",
+  "preferGlobal": true,
+  "dependencies": {
+    "download": "^7.1.0",
+    "meow": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "bin": {
+    "crxdl": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node ./bin/cli.js"
+  }
+}
