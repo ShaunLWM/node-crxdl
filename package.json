@@ -1,6 +1,6 @@
 {
 	"name": "node-crxdl",
-	"version": "0.0.2-alpha.2",
+	"version": "0.0.3-alpha.1",
 	"repository": "git@github.com:ShaunLWM/node-crxdl.git",
 	"author": "ShaunLWM",
 	"license": "MIT",
