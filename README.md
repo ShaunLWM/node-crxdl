@@ -36,4 +36,4 @@ Example
 - [crxviewer](https://github.com/Rob--W/crxviewer)
 
 ## License
-MIT License - Copyright (c) 2019 Shaun
+MIT License - Copyright (c) 2021 Shaun
