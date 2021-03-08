@@ -30,14 +30,13 @@ const invalid = [
 ];
 
 describe("library test", () => {
-
 	beforeAll(() => {
 		jest.useFakeTimers();
 	});
 
 	afterAll(() => {
 		jest.restoreAllMocks();
-	})
+	});
 
 	it("should match id given", () => {
 		for (const extension of extensions) {
@@ -60,7 +59,7 @@ describe("library test", () => {
 		for (const extension of extensions) {
 			const directory = await crxdl({ url: extension.url });
 			expect(download).toBeCalled();
-			expect(directory).toBe(path.join(tempDirectory, `${extension.id}.crx`))
+			expect(directory).toBe(path.join(tempDirectory, `${extension.id}.crx`));
 		}
 	});
 });
